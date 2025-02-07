@@ -226,17 +226,15 @@
 
     <div id="birthdayCard" class="birthday-card">
       <h2>สุขสันต์วันเกิด Opor 🎉</h2>
-      <div class="image-slider">
-        <div class="loader" id="loader">💖</div>
-        <div class="image-container" id="imageContainer">
-          <img src="img/1.jpg" alt="" class="slider-image" onload="hideLoader()">
-          <img src="img/3.jpg" alt="" class="slider-image">
-          <img src="img/4.jpg" alt="" class="slider-image">
-          <!-- เพิ่มรูปตามจำนวนที่มี -->
-        </div>
-        <button class="slider-btn prev-btn" onclick="changeImage(-1)">❮</button>
-        <button class="slider-btn next-btn" onclick="changeImage(1)">❯</button>
-      </div>
+    <div class="image-slider">
+  <div class="loader" id="loader">💖</div>
+  <div class="image-container" id="imageContainer">
+    <img src="/mnt/data/C868FBB2-E994-4DB5-8D34-A5E4E471BF3C.jpeg" alt="Image 1" class="slider-image" onload="hideLoader()">
+    <img src="/mnt/data/920084AD-D834-41EB-8444-4056C7F271EA.jpeg" alt="Image 2" class="slider-image">
+  </div>
+  <button class="slider-btn prev-btn" onclick="changeImage(-1)">❮</button>
+  <button class="slider-btn next-btn" onclick="changeImage(1)">❯</button>
+</div>
       <p class="birthday-message">
         วันนี้เป็นอีกวันที่ฉันจะทำให้เธอมีความสุข... ขอให้วันเกิดนี้เต็มไปด้วยความรักและความสุขนะ 💕
       </p>
